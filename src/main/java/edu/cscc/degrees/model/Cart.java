@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Cart {
     private Customer customer;
-    List<LineItem> items = new ArrayList<>();
+    private final List<LineItem> items = new ArrayList<>();
 
     public Customer getCustomer() {
         return customer;
